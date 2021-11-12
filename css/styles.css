@@ -19,6 +19,8 @@ header {
     width: 100%;
     top: 0;
     z-index: 99;
+    background-color: white;
+    padding-bottom: inherit;
 }
 
 h1, 
@@ -43,6 +45,11 @@ a:hover {
     color: orange;
     text-decoration:underline;
     transition: .5s;
+}
+
+.workpage {
+    color: orange;
+    text-decoration: underline;
 }
 
 /*---- Hover Effect ----*/
@@ -85,3 +92,25 @@ li {
 /*---Header Stuff ---*/
 
 /*---Body Code---*/
+
+.workdescription {
+    float: right;
+    padding-top: 194px;
+    padding-right: 45px;
+    font-family: helvetica;
+    color: #707070;
+    max-width: 32%;
+    margin: 0 auto;
+}
+
+.subh3 {
+    padding-top: 25px;
+}
+
+.locationforproject {
+    font-weight: 400;
+}
+
+.storyforwork {
+    padding-top: 50px;
+}
