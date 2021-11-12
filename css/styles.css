@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*---- font names 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+--------*/
+
+/*---Header Stuff ---*/
+
+h1, nav {
+    display: inline-block;
+}
+
+.boldname {
+    font-family: helvetica;
+    color: #707070;
+}
+
+.design {
+    font-weight: normal;
+}
+
+ul, li {
+    display: inline-block;
+    font-family: helvetica;
+    color: #707070;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.mainanchor,
+.boldname {
+    display: inline-block;
+}
+
+/*---Header Stuff ---*/
