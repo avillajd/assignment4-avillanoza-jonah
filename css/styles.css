@@ -132,7 +132,11 @@ li {
 .positioningpoints {
     position: relative;
     max-width: 800px;
-    margin: 0 auto;
+    padding: 45px;
+}
+
+.positioningpoints:hover {
+    animation: moveslide 5s;
 }
 
 .text-for-positioning {
@@ -146,3 +150,14 @@ li {
     border: solid darkorange;
 }
 
+
+/*----Animation----*/
+
+@keyframes moveslide {
+from{
+    left:0px;
+}
+to {
+    left: 600px;
+    }
+}
