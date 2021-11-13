@@ -29,7 +29,8 @@ nav {
 }
 
 nav {
-    margin: 0px 0px 0px 428px;
+    float: right;
+    padding: 60px 150px 0px;
 }
 
 li, 
@@ -61,12 +62,14 @@ li {
     color: #707070;
     font-weight: normal;
     font-size: 16px;
-    padding: 10px;
+    margin: 10px;
 }
 
 .boldname {
     font-family: helvetica;
     color: #707070;
+    position: relative;
+    top: 16px;
 }
 
 .design {
@@ -81,7 +84,7 @@ li {
 
 .mainanchor {
     vertical-align: middle;
-    padding: 45px 5px 45px 45px;
+    padding: 45px 5px 0px 45px;
 }
 
 .twitter, 
@@ -99,7 +102,7 @@ li {
     padding-right: 45px;
     font-family: helvetica;
     color: #707070;
-    max-width: 32%;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -114,3 +117,32 @@ li {
 .storyforwork {
     padding-top: 50px;
 }
+
+.image-container {
+    padding-top: 194px;
+    max-width: 1400px;
+}
+
+.image-container img {
+    display: block;
+}
+
+/*----Positioning----*/
+
+.positioningpoints {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-for-positioning {
+    position: absolute;
+    top: 152px;
+    max-width: 367px;
+    padding: 60px;
+    color: orange;
+    font-family: helvetica;
+    font-size: 9px;
+    border: solid darkorange;
+}
+
