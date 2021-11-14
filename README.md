@@ -33,7 +33,7 @@ Currently the section is coded in CSS as such:
 
 Here is an **image** as per the assignment:
 
-![Manchester City RiggedforSea Logo.]()
+![Manchester City RiggedforSea Logo.](http://avillanozadesign.com/assignment4-avillanoza-jonah/images/tomahawkjamribbons.jpg)
 
 ## Resources:
 * [Module 8](https://ufl.instructure.com/courses/435421/pages/module-8?module_item_id=8869836)
